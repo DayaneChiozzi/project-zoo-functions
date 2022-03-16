@@ -8,6 +8,4 @@ function getEmployeeByName(employeeName) {
     .find((element) => element.firstName === employeeName || element.lastName === employeeName);
 }
 
-console.log(getEmployeeByName());
-
 module.exports = getEmployeeByName;
